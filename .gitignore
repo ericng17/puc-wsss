@@ -1,0 +1,100 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+build/
+dist/
+
+# =========================
+# Virtual environments
+# =========================
+.venv/
+venv/
+env/
+.env
+.env.*
+!.env.example
+
+# =========================
+# Testing and code quality
+# =========================
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# =========================
+# IDE and editors
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# Jupyter Notebook
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Operating systems
+# =========================
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# =========================
+# Datasets
+# =========================
+/datasets/
+/raw_data/
+/processed_data/
+
+# =========================
+# Model weights and checkpoints
+# =========================
+/checkpoints/
+/weights/
+/pretrained/
+/init_weights/
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+*.onnx
+
+# =========================
+# Foundation model embeddings
+# =========================
+/embeddings/
+/features/
+/cache/
+*.npy
+*.npz
+*.h5
+*.hdf5
+*.pkl
+*.joblib
+
+# =========================
+# Training outputs
+# =========================
+/outputs/
+/runs/
+/logs/
+/wandb/
+/tensorboard/
+*.log
+events.out.tfevents.*
+
+# =========================
+# Temporary files
+# =========================
+/tmp/
+/temp/
+*.tmp
